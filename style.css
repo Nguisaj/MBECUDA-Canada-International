@@ -354,7 +354,6 @@ table {
 
 
 
-
 /* Custom styles for screens smaller than 576px (extra small devices) */
 @media (max-width: 575.98px) {
   .container {
@@ -942,3 +941,6 @@ form .button input:hover {
     flex-direction: column;
   }
 }
+
+
+
