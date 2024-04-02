@@ -932,3 +932,39 @@ nav ul.active {
     color: red;
   }
 
+
+
+/* Custom styles for screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+  .d-flex{
+    font-size: 14px;
+  }
+}
+
+/* Custom styles for screens between 576px and 767.98px (small devices) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .d-flex {
+    font-size: 16px;
+  }
+}
+
+/* Custom styles for screens between 768px and 991.98px (medium devices) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .d-flex{
+    font-size: 18px;
+  }
+}
+
+/* Custom styles for screens between 992px and 1199.98px (large devices) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .d-flex {
+    font-size: 20px;
+  }
+}
+
+/* Custom styles for screens larger than 1200px (extra large devices) */
+@media (min-width: 1200px) {
+  .d-flex{
+    font-size: 22px;
+  }
+}
