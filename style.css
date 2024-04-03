@@ -5,7 +5,10 @@
     font-size: 14px;
     max-width: 100%;
   }
-}
+
+
+  }
+
 
 /* Custom styles for screens between 576px and 767.98px (small devices) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -410,6 +413,7 @@
   .container-fluid{
     font-size: 21px;
     max-width: 100%;
+    overflow-wrap: normal
   }
 }
 
@@ -457,7 +461,6 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     background-position: center center;
     background-size: contain;
-  
       
          }
 
@@ -495,9 +498,6 @@ body {
             content: "\002B";
           }
          
-  h1 style {
-    color: red;
-  }
   
   .p-2 {
     width:100%;
@@ -669,15 +669,11 @@ body {
 .container-fluid{
   background-color:  rgb(232, 229, 223);
   max-width: 100%;
+  overflow-wrap: normal
   
 
   for the menus ike home project
 }
-
-.navbar{
-  color:;
-  color: black;
-  }
 
 
 
@@ -1060,4 +1056,7 @@ img {
   height: auto;
 }
 
+.images {
+  width: 350px;
+  height: 400px;
 }
