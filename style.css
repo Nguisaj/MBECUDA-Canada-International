@@ -1,13 +1,9 @@
 
-
-
-
-
-
 /* Custom styles for screens smaller than 576px (extra small devices) */
 @media (max-width: 575.98px) {
   .custom-class {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -15,6 +11,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .custom-class {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -22,6 +19,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .custom-class {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -29,6 +27,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .custom-class {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -36,6 +35,7 @@
 @media (min-width: 1200px) {
   .custom-class {
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -44,6 +44,7 @@
 @media (max-width: 575.98px) {
   .p-2 {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -51,6 +52,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .p-2 {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -58,6 +60,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .p-2 {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -65,6 +68,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .p-2 {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -72,6 +76,7 @@
 @media (min-width: 1200px) {
   .p-2{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -80,6 +85,7 @@
 @media (max-width: 575.98px) {
   .p-flex{
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -87,6 +93,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .p-flex {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -94,6 +101,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .p-flex{
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -101,6 +109,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .p-flex {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -108,6 +117,7 @@
 @media (min-width: 1200px) {
   .p-flex{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -116,6 +126,7 @@
 @media (max-width: 575.98px) {
   .row {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -123,6 +134,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .row {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -130,6 +142,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .row {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -137,6 +150,8 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .row {
     font-size: 20px;
+    width: 100%;
+    width: 100%;
   }
 }
 
@@ -144,6 +159,7 @@
 @media (min-width: 1200px) {
   .row{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -153,6 +169,7 @@
 @media (max-width: 575.98px) {
   .tab-content {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -160,6 +177,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .tab-content {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -167,6 +185,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .tab-content {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -174,6 +193,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
  .tab-content {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -181,6 +201,7 @@
 @media (min-width: 1200px) {
   .tab-content{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -189,6 +210,7 @@
 @media (max-width: 575.98px) {
   .tab-pane {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -196,6 +218,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .tab-pane {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -203,6 +226,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .tab-pane {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -217,6 +241,7 @@
 @media (min-width: 1200px) {
   .tab-pane{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -226,6 +251,7 @@
 @media (max-width: 575.98px) {
   .table{
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -233,6 +259,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .table {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -240,6 +267,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .table{
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -247,6 +275,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .table{
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -254,6 +283,7 @@
 @media (min-width: 1200px) {
   .table{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -262,6 +292,7 @@
 @media (max-width: 575.98px) {
   .text-bg-success {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -269,6 +300,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .text-bg-success {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -276,6 +308,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .text-bg-success {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -283,6 +316,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .text-bg-success {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -290,6 +324,7 @@
 @media (min-width: 1200px) {
   .text-bg-success {
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -299,6 +334,7 @@
 @media (max-width: 575.98px) {
   .container {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -306,6 +342,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .container {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -313,6 +350,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -320,6 +358,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .container {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -327,6 +366,7 @@
 @media (min-width: 1200px) {
   .container{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -336,6 +376,7 @@
 @media (max-width: 575.98px) {
   .container {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -343,6 +384,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .container-fluid {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -350,6 +392,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container-fluid {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -357,6 +400,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .container-fluid {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -364,6 +408,7 @@
 @media (min-width: 1200px) {
   .container-fluid{
     font-size: 21px;
+    width: 100%;
   }
 }
 
@@ -387,22 +432,23 @@ p {
   padding: 10px;
 }
 
-.body-text-container {
-  padding: 100px;
-}
 
 
 body {
-    background-image: url("images/bridge.jpeg"), url("images/palace.jfif");
-    background-repeat: repeat;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(255 255 0 / 50%),
+      rgb(0 0 255 / 50%)
+    ),url("images/bridge.jpeg"), url("images/palace.jfif");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
     background-origin: border-box;
     background-position: cover;
     font-family:Arial, Helvetica, sans-serif;
-    
-    margin: 0;
-    padding: 0;
+    background-position: center center;
+    background-size: contain;
+  
       
          }
 
@@ -673,6 +719,7 @@ input [type="aria-label"] {
 @media (max-width: 575.98px) {
   .form-control {
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -680,6 +727,7 @@ input [type="aria-label"] {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .form-control{
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -687,6 +735,7 @@ input [type="aria-label"] {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .form-control {
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -694,13 +743,14 @@ input [type="aria-label"] {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .form-control{
     font-size: 20px;
-  }
+    width: 100%;
 }
 
 /* Custom styles for screens larger than 1200px (extra large devices) */
 @media (min-width: 1200px) {
   .form-control{
     font-size: 22px;
+    width: 100%;
   }
 }
 
@@ -912,18 +962,21 @@ nav ul {
 
 nav ul.active {
   max-height: 200px;
+  
 }
 
 
 @media screen and (max-width: 576px) {
   nav {
     display: block;
+    width: 100%;
   }
 
 }
 @media screen and (max-width: px) {
   nav {
     display: block;
+    width: 100%;
   }
 
   
@@ -938,6 +991,7 @@ nav ul.active {
 @media (max-width: 575.98px) {
   .d-flex{
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -945,6 +999,7 @@ nav ul.active {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .d-flex {
     font-size: 16px;
+    width: 100%;
   }
 }
 
@@ -952,6 +1007,7 @@ nav ul.active {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .d-flex{
     font-size: 18px;
+    width: 100%;
   }
 }
 
@@ -959,6 +1015,7 @@ nav ul.active {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .d-flex {
     font-size: 20px;
+    width: 100%;
   }
 }
 
@@ -966,5 +1023,12 @@ nav ul.active {
 @media (min-width: 1200px) {
   .d-flex{
     font-size: 22px;
+    width: 100%;
   }
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
 }
