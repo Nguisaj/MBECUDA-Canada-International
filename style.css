@@ -947,9 +947,34 @@ nav ul.active {
   
   }
   @media screen and (max-width: px) {
-    img {
+    body{
       display: block;
       max-width: 100%;
+    }
+  
+  }
+  @media screen and (max-width: px) {
+    body {
+      display: block;
+      max-width: 100%;
+      background-image: linear-gradient(
+        to bottom,
+        rgb(255 255 0 / 50%),
+        rgb(0 0 255 / 50%)
+      ),url("images/bridge.jpeg"), url("images/palace.jfif");
+      background-repeat: no-repeat;
+      max-width: 100%;
+    
+    background-size: cover;
+    border: 1px solid rgb(249, 129, 221);
+      background-attachment: fixed;
+      background-size: auto;
+      background-origin: border-box;
+      background-position: cover;
+      font-family:Arial, Helvetica, sans-serif;
+      background-position: center center;
+      background-size: contain;
+    
     }
 
   
