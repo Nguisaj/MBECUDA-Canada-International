@@ -948,48 +948,7 @@ form .button input:hover {
   }
 }
 
-header {
-  color: #f0f0f0;
-  background-color: #424141;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
 
-nav {
-  background-color: #424141; 
-  color: #fff;
-  padding: 10px 20px; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.nav-links {
-  transition: opacity 0.3s ease;
-}
-
-.nav-links.active {
-  opacity: 1;
-}
-
-nav ul {
- 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-nav ul li {
-  margin-right: 0px;
-  margin-left: 0px;
-}
 
 nav ul li a {
   text-decoration: none;
@@ -1033,6 +992,7 @@ nav ul.active {
     img{
       display: block;
       max-width: 100%;
+      
     }
   
   }
