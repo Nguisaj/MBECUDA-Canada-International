@@ -1165,11 +1165,25 @@ img {
 .social-icon {
   margin: 0 20px; /* Adjust margin as needed */
    font-size: 24px; /* Adjust icon size as needed */
-  color: rgb(33, 5, 12)/*Adjust icon color */
+  color: rgb(237, 223, 227)/*Adjust icon color */
 }
 
 .social-icon:hover {
-  color: #3700ff; /* Change color on hover */
+  color: #ff0008; /* Change color on hover */
+}
+
+
+a:link { 
+  text-decoration: red; 
+} 
+a:visited { 
+  text-decoration: #700505; 
+} 
+a:hover { 
+  text-decoration: red; 
+} 
+a:active { 
+  text-decoration: rgb(60, 15, 15); 
 }
 
 
