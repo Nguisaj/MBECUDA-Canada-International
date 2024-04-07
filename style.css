@@ -440,7 +440,7 @@ p {
 }
 
 a:hover {
-  color: purple;
+  color: rgb(160, 19, 19);
 }
 
 
@@ -950,10 +950,9 @@ form .button input:hover {
 
 
 
-nav ul li a {
-  text-decoration: none;
-  color: blue;
-  
+nav ul li a.active {
+  font-weight: bold;
+  color: #ff0000;
 }
 
 #main-content {
@@ -1180,7 +1179,7 @@ a:visited {
   text-decoration: #700505; 
 } 
 a:hover { 
-  text-decoration: red; 
+  text-decoration: rgb(160, 19, 19); 
 } 
 a:active { 
   text-decoration: rgb(60, 15, 15); 
