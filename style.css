@@ -295,7 +295,7 @@
 /* Custom styles for screens smaller than 576px (extra small devices) */
 @media (max-width: 575.98px) {
   .text-bg-success {
-    font-size: 14px;
+    font-size: 11px;
     max-width: 100%;
   }
 }
@@ -303,10 +303,12 @@
 /* Custom styles for screens between 576px and 767.98px (small devices) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .text-bg-success {
-    font-size: 16px;
+    font-size: 14px;
     max-width:100%;
+    overflow-wrap:break-word;
   }
-}
+  }
+
 
 /* Custom styles for screens between 768px and 991.98px (medium devices) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -337,7 +339,7 @@
 /* Custom styles for screens smaller than 576px (extra small devices) */
 @media (max-width: 575.98px) {
   .container {
-    font-size: 14px;
+    font-size: 10px;
     max-width:100%;
   }
 }
@@ -345,7 +347,7 @@
 /* Custom styles for screens between 576px and 767.98px (small devices) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .container {
-    font-size: 16px;
+    font-size: 10px;
     max-width: 100%;
   }
 }
@@ -528,6 +530,7 @@ body {
   .container-fluid {
       padding-right: 10px;
       padding-left: 10px;
+      font-size: 10;
   }
 }
 
@@ -535,6 +538,7 @@ body {
 @media (min-width: 576px) {
   .container-fluid {
       max-width: 540px;
+      font-size: 10;
   }
 }
 
@@ -962,8 +966,10 @@ nav ul li a.active {
 nav ul {
   flex-direction: row;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color:  rgb(68, 29, 40)
+;
   
+
  
 }
 
@@ -1183,6 +1189,68 @@ a:hover {
 } 
 a:active { 
   text-decoration: rgb(60, 15, 15); 
+}
+
+
+
+.header{
+  border-bottom: 1px solid #E2E8F0;
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: ;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  .nav-item {
+    margin: 0rem 0;
+}
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
 }
 
 
