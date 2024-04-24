@@ -3,3 +3,8 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^mbecudainternational.great-site.net\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.mbecudainternational.great-site.net.com/$1 [R,L]
