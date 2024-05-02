@@ -12,6 +12,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <!-- Add other URLs here following the same structure -->
     <url>
         <loc>https://mbecudainternational.great-site.net/contact.html</loc>
         <lastmod>2024-05-01</lastmod>
@@ -78,7 +79,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    version<url>
+    <url>
         <loc>https://mbecudainternational.great-site.net/ongoing.html</loc>
         <lastmod>2024-05-01</lastmod>
         <changefreq>monthly</changefreq>
@@ -90,10 +91,4 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-   
-    <!-- Add more <url> entries for each page on your site -->
 </urlset>
-
-
-
-
